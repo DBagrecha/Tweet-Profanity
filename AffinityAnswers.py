@@ -2,7 +2,7 @@
 import pandas as pd
 from nltk.tokenize import word_tokenize
 
-# Assuming that all the tweets are in a csv file and the racial slurs are in a .txt file
+# Assuming that all the tweets are in a csv file and the racial slurs are in a .txt file with every word in a new line
 df = pd.read_csv('<.csv file path>')
 word_list = set()
 f = open('<.txt file path>','r')
